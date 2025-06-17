@@ -1,5 +1,29 @@
 # Blockchain POC
+# Providers-Node - API Service Management 🌐
 
+## 📌 Description
+Providers-Node is a **Node.js-powered API management tool** designed to streamline provider interactions, optimize request handling, and ensure efficient service integration.
+
+## 🎯 Project Objectives
+- **Simplify API provider management** for seamless integration.
+- **Enhance request handling** with optimized workflows.
+- **Improve service reliability** through structured interactions.
+
+## 🔥 Key Features
+- **Automated API request processing**.
+- **Secure authentication** for provider access.
+- **Optimized data handling** for improved performance.
+
+## 🛠️ Technologies Used
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB or SQL-based storage
+- **Authentication:** JWT, OAuth
+- **Version Control:** GitHub
+
+## 🏗️ Installation & Setup
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/GJHR-6/Providers-node.git
 ## AWS Lambda function code
 
 Under zventus_blockchain we have a poetry installable package that will be packaged and uploaded to the lambda function we will be using for poc V2.
