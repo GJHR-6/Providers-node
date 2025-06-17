@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "zventus_blockchain"
+version = "2.0.0"
+description = "Python package for managing incoming data, writing a buffer of transactions into Dynamo and writing back to Kaleido's Firefly API"
+authors = ["Oswaldo Gomez <ogomez@zventus.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.24.32"
+python-lambda-local = "^0.1.13"
+moto = "^3.1.16"
+pydantic = "^1.10.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+isort = "^5.10.1"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+ipython = "^8.4.0"
+flake8 = "^4.0.1"
+mypy = "^0.971"
+bandit = "^1.7.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
